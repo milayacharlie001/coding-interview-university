@@ -9,6 +9,7 @@
                 "-g",
                 "-ggdb",
                 "${file}",
+                "-pedantic-errors",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
