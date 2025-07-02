@@ -14,7 +14,7 @@
                 "-Wextra",
                 "-Wconversion",
                 "-Wsign-conversion",
-                "${fileDirname}\\.cpp",
+                "${fileDirname}/**.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
